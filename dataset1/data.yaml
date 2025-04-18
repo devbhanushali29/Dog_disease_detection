@@ -1,0 +1,13 @@
+train: ../images
+val: ../images
+test: ../images
+
+nc: 2
+names: ['demodicosis', 'ringworm']
+
+roboflow:
+  workspace: canine-project
+  project: canine-qhgnq
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/canine-project/canine-qhgnq/dataset/5
